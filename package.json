@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/jsonPlaceholder.postman_collection.json"
+    "api-tests-production": "newman run tests/jsonPlaceholder.postman_collection.json --reporters junit --reporter-junit-exprt newman.xml"
   },
   "author": "Harshal Bhore",
   
